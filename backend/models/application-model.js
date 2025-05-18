@@ -20,4 +20,4 @@ const applicationSchema = new mongoose.Schema({
     timeseries:true
 })
 
-export const Application = mongoose.model("Application", applicationSchema)
+export default Application = mongoose.model("Application", applicationSchema)

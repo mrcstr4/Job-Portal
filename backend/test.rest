@@ -1,0 +1,23 @@
+POST http://localhost:5000/api/v1/user/login
+Content-Type: application/json
+
+{
+    "email": "castrosalmer0604@gmail.com",
+    "password": "mercastro",
+    "role": "student"
+}
+
+
+### 
+
+PUT http://localhost:5000/api/v1/user/update-profile
+Content-Type: application/json
+
+{
+    "firstname": "Salmer",
+    "lastname": "Castro",
+    "email": "castrosalmer0604@gmail.com",
+    "contact": "09217233487",
+    "bio": "Software Developer",
+    "skills": "JavaScript,Node.js,React"
+}
